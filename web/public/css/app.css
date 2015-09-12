@@ -1,0 +1,41 @@
+body {
+	background: url('/img/concrete_seamless.png');
+}
+
+
+.stream {
+	text-align:center;
+	min-height: 360px;
+}
+
+.controls {
+	margin: 25px 0 40px 8px;
+}
+
+.lights {
+	margin-left: 65px;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.up-button,
+.down-button {
+	margin-left:88px;
+	margin-bottom: 4px;
+}
+
+.center-button,
+.left-button,
+.right-button {
+	margin-bottom: 4px;
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+    background-color: #37474F;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+    background-color: #ccc;
+}
